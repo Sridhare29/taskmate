@@ -1,9 +1,16 @@
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
+  const username = "sridhar";
   return (
     <div className="App">
-      <h1>react</h1>
+      <Header/>
+      <div>
+      <h1 className='head'>{username}</h1>
+      </div>
+      <Footer/>
     </div>
   );
 }
