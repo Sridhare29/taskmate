@@ -2,6 +2,42 @@
     font-size: 50px;
     text-align: center
   }
-  
-  
-  
+  .logo{
+    height: 50px;
+    margin-right: 10px;
+  }
+  .app{
+    text-align: center;
+  }
+  .box{
+    max-width: 200px;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+  }
+  P{
+    font-size: 24px;
+    text-align: center;
+  }
+  button{
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+  }
+.add{
+  background-color: rgb(228, 122, 122);
+}
+.sub{
+  background-color: rgb(103, 155, 103);
+}
+.reset{
+  background-color: rgb(112, 141, 185);
+}
+.main{
+  display: flex;
+  align-items: center; 
+  margin: 10px;
+}
