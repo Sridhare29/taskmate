@@ -10,6 +10,7 @@ function ListTask() {
 
     function handleDelete(id){
         console.log(id);
+        setTasks(tasks.filter(task=> id !== task.id));
     }
 
     return (
