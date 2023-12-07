@@ -1,6 +1,7 @@
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import ListTask from './components/ListTask';
 
 function App() {
   const username = "sridhar";
@@ -10,7 +11,7 @@ function App() {
       <div>
       <h1 className='head'>{username}</h1>
       </div>
-      <Footer/>
+      <ListTask/>
     </div>
   );
 }
