@@ -4,7 +4,7 @@ import Header from './components/Header';
 import ListTask from './components/ListTask';
 
 function App() {
-  const username = "sridhar";
+  const username = "Sridhar";
   return (
     <div className="App">
       <Header/>
