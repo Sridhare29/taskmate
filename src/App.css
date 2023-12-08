@@ -73,3 +73,17 @@ button {
 button:hover {
   background-color: #ff3333;
 }
+.trigger{
+  background-color: rgb(104, 104, 203);
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  cursor: pointer;
+
+}
+.complete{
+  border-color: green;
+}
+.incomplete{
+  border-color: #ff3333;
+}

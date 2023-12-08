@@ -8,21 +8,25 @@ function ListTask() {
         { id: 1122, name: "Update React Leactures", complete: false }
     ]);
 
-    function handleDelete(id){
+    const [show, setShow] = useState(true);
+
+    function handleDelete(id) {
         console.log(id);
-        setTasks(tasks.filter(task=> id !== task.id));
+        setTasks(tasks.filter(task => id !== task.id));
     }
 
     return (
         <div className='App'>
             <h1>Task List</h1>
             <ul>
-                {tasks.map((task)=>(
-                    <li key={task.id}>
+                <button className="trigger" onClick={() => setShow(!show)}>Toggle</button>
+                {show && tasks.map((task) => (
+                    <li key={task.id} className={task.complete ? "complete" : "incomplete"}>
                         <spam>{task.id} - {task.name}</spam>
-                        <button onClick={()=>handleDelete(task.id)}>Delete</button>
+                        <button onClick={() => handleDelete(task.id)}>Delete</button>
                     </li>
                 ))}
+
             </ul>
         </div>
     )
