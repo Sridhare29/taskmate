@@ -20,6 +20,11 @@
     font-size: 24px;
     text-align: center;
   }
+  .navtitle {
+    text-decoration: none; 
+    color: inherit;
+  }
+  
   button{
     padding: 10px;
     font-size: 20px;
@@ -80,15 +85,16 @@ button:hover {
   border: none;
   padding: 10px 12px;
   cursor: pointer;
-
+  align-content: center;
+  align-items: center;
 }
 .complete{
   border-color: green;
-  box-shadow: 0px 4px 8px green;
+  box-shadow: 0px 2px 4px green;
 
 }
 .incomplete{
   border-color: #ff3333;
-  box-shadow: 0px 4px 8px #ff5555;
+  box-shadow: 0px 2px 4px #ff5555;
 
 }

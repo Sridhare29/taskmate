@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='main'>
       <img className='logo' src={Logo}></img>
-      <h4>Software Engineer</h4>
+      <a href='/' className='navtitle'>Software Engineer</a>
     </div>
   )
 }

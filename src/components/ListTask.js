@@ -22,7 +22,7 @@ function ListTask() {
                 <button className="trigger" onClick={() => setShow(!show)}>Toggle</button>
                 {show && tasks.map((task) => (
                     <li key={task.id} className={task.complete ? "complete" : "incomplete"}>
-                        <spam>{task.id} - {task.name}</spam>
+                        <span>{task.id} - {task.name}</span>
                         <button onClick={() => handleDelete(task.id)}>Delete</button>
                     </li>
                 ))}
